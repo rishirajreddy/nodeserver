@@ -3,7 +3,7 @@ const User  = require("../models/usermodel");
 const router = express.Router();
 
 router.get("/",(req,res) => {
-    res.status(200).json({
+    res.json({
         msg:"Welcome to nodejs"
     })
 })
